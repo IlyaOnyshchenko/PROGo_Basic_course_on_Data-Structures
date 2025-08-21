@@ -1,0 +1,45 @@
+Валидация кода
+Входные данные
+Вам дан фрагмент кода программы на любом языке программирования или формальном языке разметки. Фрагмент может состоять из нескольких строк. 
+Выходные данные
+Проверьте правильное расположение скобок в тексте программы и возвратите -1, если все скобки стоят верно или номер строки, в которой найдено несоответствие.
+Примечание: символы < и > также интерпретируются как парные скобки и их необходимо учитывать при проверке.
+
+Sample Input 1:
+
+initializers.ym = function() {
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; 
+m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)
+[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", 
+"https://mc.yandex.ru/metrika/tag.js", "ym");
+};
+Sample Output 1:
+-1
+Sample Input 2:
+<!--[if lt IE 9]>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js">/script>
+ <![endif]-->
+
+Sample Output 2:
+
+2
+
+Sample Input 3:
+
+{
+   "firstName": "Иван",
+   "lastName": "Иванов",
+   "address": {
+       "streetAddress": "Московское ш., 101, кв.101",
+       "city": "Ленинград",
+       "postalCode": 101101
+   },
+   "phoneNumbers": [
+       "812 123-1234",
+       "916 123-4567"
+   ]
+}
+
+Sample Output 3:
+
+-1

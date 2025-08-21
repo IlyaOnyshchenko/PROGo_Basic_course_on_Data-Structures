@@ -1,0 +1,17 @@
+Объединение множеств (Union)
+Необходимо реализовать метод Union:
+// Union - объединяет множества
+func (s SetOnMap[T]) Union(otherSet SetOnMap[T]) {
+    panic("реализуйте данный метод")
+}
+                  
+Множество otherSet необходимо добавить в множество s.
+
+Sample Input:
+
+1 2 3
+4 5 6
+
+Sample Output:
+
+[1 2 3 4 5 6]

@@ -1,0 +1,6 @@
+Добавление ДО указанного узла
+Необходимо реализовать метод AddBefore, который добавляет новое значение до указанного узла: 
+// AddBefore - добавляет узел до переданного
+func (list *SinglyCircularLinkedList) AddBefore(node *Node, item int) {
+	panic("реализуйте данный метод")
+}

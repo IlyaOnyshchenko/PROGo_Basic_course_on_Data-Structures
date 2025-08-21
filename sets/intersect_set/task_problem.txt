@@ -1,0 +1,19 @@
+Пересечение множеств (Intersect)
+Необходимо реализовать метод Intersect:
+
+// Intersect - пересечение множеств
+func (s SetOnMap[T]) Intersect(otherSet SetOnMap[T]) {
+    panic("реализуйте данный метод")
+}
+
+                  
+В множестве s должны остаться значения которые есть в s и в otherSet.
+
+Sample Input:
+
+1 2 3
+3 4 5
+
+Sample Output:
+
+[3]
